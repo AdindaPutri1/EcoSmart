@@ -222,7 +222,7 @@ nav a:hover, nav a.active {
 /* About Hero Section */
 .about-hero {
     background: linear-gradient(rgba(45, 80, 22, 0.6), rgba(0, 0, 0, 0.4)),
-                url('../images/kkn.jpg') center/cover no-repeat;
+                url('../images/fotbar.jpeg') center/cover no-repeat;
     color: white;
     padding: 6rem 0;
     text-align: center;
