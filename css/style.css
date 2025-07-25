@@ -18,6 +18,72 @@ body {
     padding: 0 20px;
 }
 
+.social-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 50%;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            border: none;
+            cursor: pointer;
+        }
+
+        .social-btn:hover {
+            transform: translateY(-5px) scale(1.1);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        .social-btn img {
+            width: 30px;
+            height: 30px;
+            object-fit: contain;
+        }
+
+        /* Warna khusus untuk setiap platform */
+        .facebook:hover {
+            background: #1877f2;
+        }
+
+        .instagram:hover {
+            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        }
+
+        .whatsapp:hover {
+            background: #25d366;
+        }
+
+        .facebook:hover img,
+        .instagram:hover img,
+        .whatsapp:hover img {
+            filter: brightness(0) invert(1);
+        }
+
+        /* Responsive */
+        @media (max-width: 480px) {
+            .social-links {
+                gap: 15px;
+            }
+            
+            .social-btn {
+                width: 50px;
+                height: 50px;
+            }
+            
+            .social-btn img {
+                width: 25px;
+                height: 25px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+        }
+
 /* Header */
 header {
     background: linear-gradient(135deg, #2d5016 0%, #4a7c23 100%);
